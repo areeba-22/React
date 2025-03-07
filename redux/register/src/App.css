@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: gradientAnimation 10s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+  }
+
+  50% {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+  }
+
+  100% {
+    background: linear-gradient(135deg, #ff6f61, #d32f2f);
+  }
+}
